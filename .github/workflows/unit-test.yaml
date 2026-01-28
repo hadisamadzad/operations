@@ -3,6 +3,9 @@ name: 🧩 Run Unit Tests
 on:
   workflow_call:
   workflow_dispatch:
+  pull_request:
+    branches:
+      - '*'
   push:
     branches:
       - '*'
