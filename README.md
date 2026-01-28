@@ -1,4 +1,11 @@
 # Minimals.Operations
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=hadisamadzad_operations&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=hadisamadzad_operations)
+[![🛡️ Security Checks](https://github.com/hadisamadzad/minimals-operations/actions/workflows/security-check.yaml/badge.svg)](https://github.com/hadisamadzad/minimals-operations/actions/workflows/security-check.yaml)
+[![🧩 Run Unit Tests](https://github.com/hadisamadzad/minimals-operations/actions/workflows/unit-test.yaml/badge.svg)](https://github.com/hadisamadzad/minimals-operations/actions/workflows/unit-test.yaml)
+[![🚀 Build, Test & Publish](https://github.com/hadisamadzad/minimals-operations/actions/workflows/build-and-deploy.yaml/badge.svg)](https://github.com/hadisamadzad/minimals-operations/actions/workflows/build-and-deploy.yaml)
+
+[![NuGet](https://img.shields.io/nuget/v/Minimals.Operations.svg)](https://www.nuget.org/packages/Minimals.Operations/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Minimals.Operations.svg)](https://www.nuget.org/packages/Minimals.Operations/)
 
 ![Minimals.Operations](icon.png)
 
@@ -265,3 +272,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Author
 
 Hadi Samadzad
+
+
+
