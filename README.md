@@ -4,6 +4,9 @@
 [![🧩 Run Unit Tests](https://github.com/hadisamadzad/minimals-operations/actions/workflows/unit-test.yaml/badge.svg)](https://github.com/hadisamadzad/minimals-operations/actions/workflows/unit-test.yaml)
 [![🚀 Build, Test & Publish](https://github.com/hadisamadzad/minimals-operations/actions/workflows/build-and-deploy.yaml/badge.svg)](https://github.com/hadisamadzad/minimals-operations/actions/workflows/build-and-deploy.yaml)
 
+[![NuGet](https://img.shields.io/nuget/v/Minimals.Operations.svg)](https://www.nuget.org/packages/Minimals.Operations/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Minimals.Operations.svg)](https://www.nuget.org/packages/Minimals.Operations/)
+
 ![Minimals.Operations](icon.png)
 
 A lightweight, type-safe operation result pattern implementation for .NET. Provides structured error handling, operation status tracking, and dependency injection support for implementing use cases in clean architecture applications.
@@ -269,5 +272,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Author
 
 Hadi Samadzad
+
 
 
