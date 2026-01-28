@@ -1,4 +1,5 @@
 # Minimals.Operations
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=hadisamadzad_operations&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=hadisamadzad_operations)
 
 ![Minimals.Operations](icon.png)
 
@@ -265,3 +266,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Author
 
 Hadi Samadzad
+
