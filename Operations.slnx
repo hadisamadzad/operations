@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="src/Operations.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Operations.Tests.csproj" />
+  </Folder>
+</Solution>
