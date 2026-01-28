@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="icon.png" alt="Minimals.Operations" width="128" height="128">
-</p>
-
 # Minimals.Operations
+
+![Minimals.Operations](icon.png)
 
 A lightweight, type-safe operation result pattern implementation for .NET. Provides structured error handling, operation status tracking, and dependency injection support for implementing use cases in clean architecture applications.
 
