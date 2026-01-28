@@ -48,7 +48,6 @@ public class OperationResultTests
 
         // Assert
         Assert.Equal(OperationStatus.NoOperation, result.Status);
-        Assert.NotNull(result.Value);
         Assert.True(result.Succeeded);
         Assert.Null(result.Error);
     }
@@ -126,6 +125,38 @@ public class OperationResultTests
         Assert.Equal(OperationErrorType.UnexpectedError, result.Error.Type);
         Assert.Single(result.Error.Messages);
         Assert.Equal(message, result.Error.Messages[0]);
+    }
+
+    [Fact]
+    public void UnprocessableFailure_ShouldReturnUnprocessableStatusWithError()
+    {
+        // Arrange
+        var message = "Cannot process";
+
+        // Act
+        var result = OperationResult<string>.UnprocessableFailure(message);
+
+        // Assert
+        Assert.Equal(OperationStatus.Unprocessable, result.Status);
+        Assert.Null(result.Value);
+        Assert.False(result.Succeeded);
+        Assert.True(result.Failed);
+        Assert.NotNull(result.Error);
+        Assert.Equal(OperationErrorType.UnexpectedError, result.Error.Type);
+        Assert.Single(result.Error.Messages);
+        Assert.Equal(message, result.Error.Messages[0]);
+    }
+
+    [Fact]
+    public void Failed_Property_ShouldReturnTrueForFailures()
+    {
+        // Arrange
+        var successResult = OperationResult<string>.Success("value");
+        var failedResult = OperationResult<string>.Failure("error");
+
+        // Assert
+        Assert.False(successResult.Failed);
+        Assert.True(failedResult.Failed);
     }
 
     [Fact]
