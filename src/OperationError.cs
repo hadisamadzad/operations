@@ -1,4 +1,4 @@
-namespace Operations;
+namespace Damas.Operations;
 
 /// <summary>
 /// Represents error information from a failed operation.

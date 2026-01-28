@@ -1,4 +1,4 @@
-namespace Operations;
+namespace Damas.Operations;
 
 /// <summary>
 /// Represents the result of an operation execution with status, value, error information, and optional metadata.

@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Operations.Tests;
+namespace Damas.Operations.Tests;
 
 public class OperationServiceExtensionsTests
 {

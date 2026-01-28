@@ -1,4 +1,4 @@
-namespace Operations;
+namespace Damas.Operations;
 
 /// <summary>
 /// Represents an empty result for operations that don't return a value.

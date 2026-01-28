@@ -4,16 +4,17 @@
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>Damas.Operations</RootNamespace>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <!-- NuGet Package Properties -->
-    <PackageId>Operations</PackageId>
+    <PackageId>Damas.Operations</PackageId>
     <Version>1.0.0</Version>
     <Authors>Hadi Samadzad</Authors>
     <Company>Hadi Samadzad</Company>
     <Description>A lightweight, type-safe operation result pattern implementation for .NET. Provides structured error handling, operation status tracking, and dependency injection support for implementing use cases in clean architecture applications.</Description>
     <PackageTags>operation-pattern;result-pattern;clean-architecture;use-case;error-handling;functional;railway-oriented</PackageTags>
-    <PackageProjectUrl>https://github.com/hadisamadzad/operations</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/hadisamadzad/operations</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/hadisamadzad/damas-operations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hadisamadzad/damas-operations</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>

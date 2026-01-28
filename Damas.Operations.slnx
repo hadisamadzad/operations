@@ -3,9 +3,9 @@
     <Platform Name="Any CPU" />
   </Configurations>
   <Folder Name="/src/">
-    <Project Path="src/Operations.csproj" />
+    <Project Path="src/Damas.Operations.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/Operations.Tests.csproj" />
+    <Project Path="tests/Damas.Operations.Tests.csproj" />
   </Folder>
 </Solution>
